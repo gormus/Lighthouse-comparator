@@ -1,0 +1,15 @@
+{
+  "name": "Comparator",
+  "version": "1.0.0",
+  "description": "Runs through a host of tests on multiple sites and multiple pages per site.",
+  "main": "index.js",
+  "author": "Lars S. Linnet (lslinnet)",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-launcher": "^0.9.0",
+    "commander": "^2.12.2",
+    "lighthouse": "^2.6.0",
+    "shelljs": "^0.7.8",
+    "yamljs": "^0.3.0"
+  }
+}

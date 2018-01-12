@@ -1,0 +1,17 @@
+version: 1.0
+
+base: 'example'
+
+sites:
+  - id: example
+    domain: 'https://example.com'
+    urls:
+      - frontpage: '/'
+      - list-page: '/article/1'
+      - product-page: '/articles'
+  - id: example2
+    domain: 'https://two.exmaple.com'
+    urls:
+      - frontpage: '/'
+      - list-page: '/post/1'
+      - product-page: '/posts'
